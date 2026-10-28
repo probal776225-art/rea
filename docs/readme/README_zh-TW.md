@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> 此儲存庫是 REA 的分支（fork），由 [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) 於 [probal776225-art/rea](https://github.com/probal776225-art/rea) 維護；REA 由 [morluto](https://github.com/morluto) 建立。請參閱[分支說明](../fork/README.md)與[孟加拉語（বাংলা）快速入門](../fork/bn.md)。
+>
 > REA 官方來源： [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > 請透過這些官方來源提供的安裝與發布連結取得 REA。相似的儲存庫名稱或複製的 README 不能證明下載內容來自官方。
 
@@ -329,7 +331,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-如果正在使用 AI 代理，請完成[設定更新](#更新-rea)並重新啟動 AI 代理。重試同一任務。如果問題仍然存在，請[提交 issue](https://github.com/morluto/rea/issues)，附上 REA 版本、目標類型、復現步驟和錯誤輸出。
+如果正在使用 AI 代理，請完成[設定更新](#更新-rea)並重新啟動 AI 代理。重試同一任務。如果問題仍然存在，請[提交 issue](https://github.com/probal776225-art/rea/issues)，附上 REA 版本、目標類型、復現步驟和錯誤輸出。
 
 </details>
 
@@ -371,7 +373,7 @@ REA 用於合法的研究、教育、互通性、軟體保存，以及分析你�
 
 ## 參與貢獻
 
-歡迎幫助改進 REA！你可以[提交 issue](https://github.com/morluto/rea/issues) 報告錯誤或建議功能，也可以[提交 pull request](https://github.com/morluto/rea/pulls) 改進程式碼或文件。
+歡迎幫助改進 REA！你可以[提交 issue](https://github.com/probal776225-art/rea/issues) 報告錯誤或建議功能，也可以[提交 pull request](https://github.com/probal776225-art/rea/pulls) 改進程式碼或文件。
 
 開發設定和檢查見 [CONTRIBUTING.md](../../CONTRIBUTING.md)，驗證流程見[測試指南](../testing.md)，專案結構見[架構圖](../architecture.mermaid)。
 

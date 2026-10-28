@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Acest depozit este un fork al REA întreținut de [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) la [probal776225-art/rea](https://github.com/probal776225-art/rea); REA a fost creat de [morluto](https://github.com/morluto). Consultați [notele fork-ului](../fork/README.md) și [ghidul rapid în bengaleză (বাংলা)](../fork/bn.md).
+>
 > Descarcă REA din [morluto/rea](https://github.com/morluto/rea),
 > de pe [rea.tools](https://rea.tools/) sau prin [pachetul npm rea-agents](https://www.npmjs.com/package/rea-agents).
 > Urmează linkurile de instalare și către versiunile publicate oferite de aceste surse oficiale.
@@ -408,7 +410,7 @@ npx rea-agents@latest setup
 
 Dacă folosești un agent, finalizează [actualizarea configurării](#actualizează-rea)
 și repornește-l. Reîncearcă aceeași sarcină. Dacă problema persistă,
-[deschide un issue](https://github.com/morluto/rea/issues) și include versiunea REA,
+[deschide un issue](https://github.com/probal776225-art/rea/issues) și include versiunea REA,
 tipul țintei analizate, pașii de reproducere și mesajele de eroare.
 
 </details>
@@ -456,9 +458,9 @@ să le examinezi.
 
 ## Contribuții
 
-Ne-ar bucura să contribui la REA! [Deschide un issue](https://github.com/morluto/rea/issues)
+Ne-ar bucura să contribui la REA! [Deschide un issue](https://github.com/probal776225-art/rea/issues)
 pentru a raporta o eroare sau a propune o funcționalitate ori
-[trimite un pull request](https://github.com/morluto/rea/pulls) pentru a îmbunătăți
+[trimite un pull request](https://github.com/probal776225-art/rea/pulls) pentru a îmbunătăți
 codul sau documentația.
 
 Consultă [CONTRIBUTING.md](../../CONTRIBUTING.md) pentru pregătirea mediului de dezvoltare

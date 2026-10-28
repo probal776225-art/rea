@@ -26,6 +26,8 @@
 </div>
 
 > [!IMPORTANT]
+> Αυτό το αποθετήριο είναι ένα fork του REA που συντηρείται από [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) στο [probal776225-art/rea](https://github.com/probal776225-art/rea)· το REA δημιουργήθηκε από [morluto](https://github.com/morluto). Δείτε τις [σημειώσεις του fork](../fork/README.md) και τον [γρήγορο οδηγό στα βεγγαλικά (বাংলা)](../fork/bn.md).
+>
 > Κατέβασε το REA από το [morluto/rea](https://github.com/morluto/rea),
 > το [rea.tools](https://rea.tools/) ή το [πακέτο rea-agents στο npm](https://www.npmjs.com/package/rea-agents).
 > Ακολούθησε τους συνδέσμους εγκατάστασης και εκδόσεων από αυτές τις επίσημες πηγές.
@@ -333,7 +335,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-Αν χρησιμοποιείς agent, ολοκλήρωσε την [ανανέωση της ρύθμισης](#ενημέρωση-του-rea) και επανεκκίνησέ τον. Δοκίμασε ξανά την ίδια εργασία. Αν το πρόβλημα παραμένει, [άνοιξε ένα issue](https://github.com/morluto/rea/issues) με την έκδοση του REA, τον τύπο του στόχου, τα βήματα αναπαραγωγής και την έξοδο του σφάλματος.
+Αν χρησιμοποιείς agent, ολοκλήρωσε την [ανανέωση της ρύθμισης](#ενημέρωση-του-rea) και επανεκκίνησέ τον. Δοκίμασε ξανά την ίδια εργασία. Αν το πρόβλημα παραμένει, [άνοιξε ένα issue](https://github.com/probal776225-art/rea/issues) με την έκδοση του REA, τον τύπο του στόχου, τα βήματα αναπαραγωγής και την έξοδο του σφάλματος.
 
 </details>
 
@@ -374,7 +376,7 @@ npx rea-agents@latest setup
 
 ## Συνεισφορά
 
-Θα χαρούμε να βοηθήσεις στο REA! [Άνοιξε ένα issue](https://github.com/morluto/rea/issues) για να αναφέρεις ένα σφάλμα ή να προτείνεις μια λειτουργία, ή [στείλε ένα pull request](https://github.com/morluto/rea/pulls) για να βελτιώσεις τον κώδικα ή την τεκμηρίωση.
+Θα χαρούμε να βοηθήσεις στο REA! [Άνοιξε ένα issue](https://github.com/probal776225-art/rea/issues) για να αναφέρεις ένα σφάλμα ή να προτείνεις μια λειτουργία, ή [στείλε ένα pull request](https://github.com/probal776225-art/rea/pulls) για να βελτιώσεις τον κώδικα ή την τεκμηρίωση.
 
 Δες το [CONTRIBUTING.md](../../CONTRIBUTING.md) για τη ρύθμιση του περιβάλλοντος ανάπτυξης και τους ελέγχους, τον [οδηγό δοκιμών](../testing.md) για τις διαδικασίες επαλήθευσης και τον [χάρτη αρχιτεκτονικής](../architecture.mermaid) για τη δομή του έργου.
 

@@ -3,7 +3,10 @@ import { describe, expect, it } from "vitest";
 import { AnalysisError } from "../domain/analysisErrorBase.js";
 import { projectAnalysisError } from "../domain/analysisErrorProjection.js";
 import { ConfigurationError } from "../domain/configurationErrors.js";
-import { SUPPORTED_NODE_VERSION_PROSE } from "../domain/runtimeVersion.js";
+import {
+  SUPPORTED_NODE_VERSION_PROSE,
+  supportsNodeVersion,
+} from "../domain/runtimeVersion.js";
 import { FakeSetupHost, options } from "./Setup.fixture.js";
 import { runSetup } from "./Setup.js";
 import {
@@ -423,11 +426,19 @@ describe("setup scoped readiness", () => {
     expect(windowsAgent.status).toBe("ready");
     expect(platformHost.configurations).toBe(1);
 
-    const nodeHost = new FakeSetupHost();
+    const nodeHost = new FakeSetupHost("linux");
     nodeHost.nodeVersion = "20.0.0";
     expect((await runSetup(options(true), nodeHost)).remediation).toBe(
       `Install ${SUPPORTED_NODE_VERSION_PROSE} and rerun setup.`,
     );
+
+    const homebrewNodePath = 'PATH="$(brew --prefix node@24)/bin:$PATH"';
+    const macNodeHost = new FakeSetupHost();
+    macNodeHost.nodeVersion = "25.5.0";
+    expect((await runSetup(options(true), macNodeHost)).remediation).toBe(
+      `Install ${SUPPORTED_NODE_VERSION_PROSE} and rerun setup. With Homebrew, keep your current Node.js and run \`brew install node@24\`, then \`${homebrewNodePath} npm install --global rea-agents\` and \`${homebrewNodePath} rea setup\`.`,
+    );
+    expect(supportsNodeVersion("24.22.1")).toBe(true);
 
     const macHost = new FakeSetupHost();
     macHost.version = "11.7";

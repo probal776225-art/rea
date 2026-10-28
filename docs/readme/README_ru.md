@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Этот репозиторий — форк REA, который поддерживает [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) в [probal776225-art/rea](https://github.com/probal776225-art/rea); автор REA — [morluto](https://github.com/morluto). См. [заметки о форке](../fork/README.md) и [краткое руководство на бенгальском (বাংলা)](../fork/bn.md).
+>
 > Официальные источники REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Используйте ссылки на установку и выпуски из этих официальных источников. Похожее название репозитория или скопированный README не подтверждают, что скачиваемый файл является официальным.
 
@@ -329,7 +331,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-Если используете агента, завершите [обновление настройки](#обновите-rea) и перезапустите его. Повторите ту же задачу. Если проблема сохраняется, [откройте issue](https://github.com/morluto/rea/issues), указав версию REA, тип цели, шаги воспроизведения и вывод ошибки.
+Если используете агента, завершите [обновление настройки](#обновите-rea) и перезапустите его. Повторите ту же задачу. Если проблема сохраняется, [откройте issue](https://github.com/probal776225-art/rea/issues), указав версию REA, тип цели, шаги воспроизведения и вывод ошибки.
 
 </details>
 
@@ -372,7 +374,7 @@ applicable licenses.
 
 ## Участие в проекте
 
-Будем рады вашей помощи с REA! [Откройте issue](https://github.com/morluto/rea/issues), чтобы сообщить об ошибке или предложить функцию, либо [отправьте pull request](https://github.com/morluto/rea/pulls) с улучшениями кода или документации.
+Будем рады вашей помощи с REA! [Откройте issue](https://github.com/probal776225-art/rea/issues), чтобы сообщить об ошибке или предложить функцию, либо [отправьте pull request](https://github.com/probal776225-art/rea/pulls) с улучшениями кода или документации.
 
 Настройка среды разработки и проверки описаны в [CONTRIBUTING.md](../../CONTRIBUTING.md), направления проверки — в [руководстве по тестированию](../testing.md), а структура проекта — на [схеме архитектуры](../architecture.mermaid).
 

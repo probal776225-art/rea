@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> To repozytorium jest forkiem REA utrzymywanym przez [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) w [probal776225-art/rea](https://github.com/probal776225-art/rea); REA zostało stworzone przez [morluto](https://github.com/morluto). Zobacz [informacje o forku](../fork/README.md) oraz [szybki start po bengalsku (বাংলা)](../fork/bn.md).
+>
 > Oficjalne źródła REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Korzystaj z odnośników do instalacji i wydań w tych oficjalnych źródłach. Podobna nazwa repozytorium lub skopiowany README nie potwierdzają, że pobierany plik jest oficjalny.
 
@@ -329,7 +331,7 @@ Dla konfiguracji agenta przez `npx`:
 npx rea-agents@latest setup
 ```
 
-Jeśli używasz agenta, wykonaj [odświeżenie konfiguracji](#zaktualizuj-rea) i uruchom go ponownie. Ponów tę samą operację. Jeśli problem pozostaje, [otwórz zgłoszenie](https://github.com/morluto/rea/issues), podając wersję REA, typ celu analizy, kroki odtworzenia problemu i komunikaty błędu.
+Jeśli używasz agenta, wykonaj [odświeżenie konfiguracji](#zaktualizuj-rea) i uruchom go ponownie. Ponów tę samą operację. Jeśli problem pozostaje, [otwórz zgłoszenie](https://github.com/probal776225-art/rea/issues), podając wersję REA, typ celu analizy, kroki odtworzenia problemu i komunikaty błędu.
 
 </details>
 
@@ -372,7 +374,7 @@ applicable licenses.
 
 ## Współtworzenie
 
-Chętnie przyjmiemy Twoją pomoc w rozwoju REA! [Otwórz zgłoszenie](https://github.com/morluto/rea/issues), aby poinformować o błędzie lub zaproponować funkcję, albo [wyślij pull request](https://github.com/morluto/rea/pulls) z ulepszeniami kodu lub dokumentacji.
+Chętnie przyjmiemy Twoją pomoc w rozwoju REA! [Otwórz zgłoszenie](https://github.com/probal776225-art/rea/issues), aby poinformować o błędzie lub zaproponować funkcję, albo [wyślij pull request](https://github.com/probal776225-art/rea/pulls) z ulepszeniami kodu lub dokumentacji.
 
 Zobacz [CONTRIBUTING.md](../../CONTRIBUTING.md), aby poznać konfigurację środowiska programistycznego i kontrole, [testowanie](../testing.md), aby poznać ścieżki weryfikacji, oraz [mapę architektury](../architecture.mermaid), aby poznać strukturę projektu.
 

@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Repositori ini adalah fork dari REA yang dikelola oleh [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) di [probal776225-art/rea](https://github.com/probal776225-art/rea); REA dibuat oleh [morluto](https://github.com/morluto). Lihat [catatan fork](../fork/README.md) dan [panduan cepat berbahasa Bengali (বাংলা)](../fork/bn.md).
+>
 > Sumber resmi REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Gunakan tautan instalasi dan rilis dari sumber resmi ini. Nama repositori yang mirip atau README yang disalin tidak membuktikan bahwa unduhan tersebut resmi.
 
@@ -345,7 +347,7 @@ npx rea-agents@latest setup
 
 Jika Anda menggunakan agen, selesaikan [pembaruan penyiapan](#perbarui-rea) dan mulai ulang agen tersebut.
 
-Coba kembali tugas yang sama. Jika masalah masih terjadi, [buat issue](https://github.com/morluto/rea/issues) dengan menyertakan versi REA, jenis target, langkah-langkah untuk mereproduksi masalah, dan keluaran kesalahan.
+Coba kembali tugas yang sama. Jika masalah masih terjadi, [buat issue](https://github.com/probal776225-art/rea/issues) dengan menyertakan versi REA, jenis target, langkah-langkah untuk mereproduksi masalah, dan keluaran kesalahan.
 
 </details>
 
@@ -390,7 +392,7 @@ applicable licenses.
 
 ## Kontribusi
 
-Kami sangat menghargai bantuan Anda untuk REA! [Buat issue](https://github.com/morluto/rea/issues) untuk melaporkan bug atau menyarankan fitur, atau [kirim pull request](https://github.com/morluto/rea/pulls) untuk meningkatkan kode atau dokumentasi.
+Kami sangat menghargai bantuan Anda untuk REA! [Buat issue](https://github.com/probal776225-art/rea/issues) untuk melaporkan bug atau menyarankan fitur, atau [kirim pull request](https://github.com/probal776225-art/rea/pulls) untuk meningkatkan kode atau dokumentasi.
 
 Lihat [CONTRIBUTING.md](../../CONTRIBUTING.md) untuk penyiapan pengembangan dan pemeriksaan, [pengujian](../testing.md) untuk tahapan verifikasi, serta [peta arsitektur](../architecture.mermaid) untuk struktur proyek.
 

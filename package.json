@@ -6,12 +6,22 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/morluto/rea.git"
+    "url": "git+https://github.com/probal776225-art/rea.git"
   },
-  "homepage": "https://github.com/morluto/rea#readme",
+  "homepage": "https://github.com/probal776225-art/rea#readme",
   "bugs": {
-    "url": "https://github.com/morluto/rea/issues"
+    "url": "https://github.com/probal776225-art/rea/issues"
   },
+  "contributors": [
+    {
+      "name": "morluto",
+      "url": "https://github.com/morluto"
+    },
+    {
+      "name": "Pradyumna Chakraborty Probal",
+      "url": "https://github.com/probal776225-art"
+    }
+  ],
   "keywords": [
     "reverse-engineering",
     "binary-analysis",

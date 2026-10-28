@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Yeh repository REA ka fork hai jise [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) [probal776225-art/rea](https://github.com/probal776225-art/rea) par maintain karte hain; REA [morluto](https://github.com/morluto) ne banaya hai. [Fork notes](../fork/README.md) aur [Bengali (বাংলা) quick start](../fork/bn.md) dekhein.
+>
 > REA [morluto/rea](https://github.com/morluto/rea),
 > [rea.tools](https://rea.tools/) ya [rea-agents npm package](https://www.npmjs.com/package/rea-agents) se hasil karein.
 > Installation aur release ke links inhi official sources se kholein. Sirf milta-julta
@@ -412,7 +414,7 @@ npx rea-agents@latest setup
 Agar agent use kar rahe hain to [setup refresh](#rea-update-karein) complete
 karke agent restart karein. Wohi task dobara try karein. Masla phir bhi ho to
 REA version, target type, reproduce karne ke steps aur error output ke saath
-[issue kholein](https://github.com/morluto/rea/issues).
+[issue kholein](https://github.com/probal776225-art/rea/issues).
 
 </details>
 
@@ -460,8 +462,8 @@ ijazat ho.
 ## Hissa dalein
 
 REA mein aapki madad ka khairmaqdam hai! Bug report karne ya feature suggest
-karne ke liye [issue kholein](https://github.com/morluto/rea/issues), ya code aur
-docs behtar karne ke liye [pull request bhejein](https://github.com/morluto/rea/pulls).
+karne ke liye [issue kholein](https://github.com/probal776225-art/rea/issues), ya code aur
+docs behtar karne ke liye [pull request bhejein](https://github.com/probal776225-art/rea/pulls).
 
 Development setup aur checks ke liye [CONTRIBUTING.md](../../CONTRIBUTING.md),
 verification lanes ke liye [testing](../testing.md) aur project structure ke

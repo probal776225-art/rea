@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Este repositorio es un fork de REA mantenido por [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) en [probal776225-art/rea](https://github.com/probal776225-art/rea); REA fue creado por [morluto](https://github.com/morluto). Consulta las [notas del fork](../fork/README.md) y la [guía rápida en bengalí (বাংলা)](../fork/bn.md).
+>
 > Fuentes oficiales de REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Usa los enlaces de instalación y de versiones publicados en estas fuentes oficiales. Un nombre de repositorio parecido o un README copiado no demuestra que una descarga sea oficial.
 
@@ -329,7 +331,7 @@ Para configurar el agente mediante `npx`:
 npx rea-agents@latest setup
 ```
 
-Si usas un agente, completa la [actualización de la configuración](#actualiza-rea) y reinícialo. Repite la misma tarea. Si el problema continúa, [abre una issue](https://github.com/morluto/rea/issues) con tu versión de REA, el tipo de objetivo, los pasos para reproducirlo y la salida del error.
+Si usas un agente, completa la [actualización de la configuración](#actualiza-rea) y reinícialo. Repite la misma tarea. Si el problema continúa, [abre una issue](https://github.com/probal776225-art/rea/issues) con tu versión de REA, el tipo de objetivo, los pasos para reproducirlo y la salida del error.
 
 </details>
 
@@ -372,7 +374,7 @@ applicable licenses.
 
 ## Contribuir
 
-¡Nos encantaría que ayudaras con REA! [Abre una issue](https://github.com/morluto/rea/issues) para comunicar un error o proponer una función, o [envía una pull request](https://github.com/morluto/rea/pulls) para mejorar el código o la documentación.
+¡Nos encantaría que ayudaras con REA! [Abre una issue](https://github.com/probal776225-art/rea/issues) para comunicar un error o proponer una función, o [envía una pull request](https://github.com/probal776225-art/rea/pulls) para mejorar el código o la documentación.
 
 Consulta [CONTRIBUTING.md](../../CONTRIBUTING.md) para preparar el entorno de desarrollo y las comprobaciones, la [guía de pruebas](../testing.md) para los procesos de verificación y el [mapa de arquitectura](../architecture.mermaid) para la estructura del proyecto.
 

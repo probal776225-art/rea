@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Ce dépôt est un fork de REA maintenu par [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) sur [probal776225-art/rea](https://github.com/probal776225-art/rea) ; REA a été créé par [morluto](https://github.com/morluto). Consultez les [notes du fork](../fork/README.md) et le [guide de démarrage rapide en bengali (বাংলা)](../fork/bn.md).
+>
 > Sources officielles de REA : [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Utilisez les liens d’installation et de publication de ces sources officielles. Un nom de dépôt similaire ou un README copié ne prouve pas qu’un téléchargement est officiel.
 
@@ -326,7 +328,7 @@ Pour une configuration d'agent via `npx` :
 npx rea-agents@latest setup
 ```
 
-Si vous utilisez un agent, terminez l'[actualisation de la configuration](#mettre-à-jour-rea) et redémarrez-le. Relancez la même tâche. Si le problème persiste, [ouvrez une issue](https://github.com/morluto/rea/issues) en indiquant votre version de REA, le type de cible, les étapes pour reproduire le problème et la sortie d'erreur.
+Si vous utilisez un agent, terminez l'[actualisation de la configuration](#mettre-à-jour-rea) et redémarrez-le. Relancez la même tâche. Si le problème persiste, [ouvrez une issue](https://github.com/probal776225-art/rea/issues) en indiquant votre version de REA, le type de cible, les étapes pour reproduire le problème et la sortie d'erreur.
 
 </details>
 
@@ -369,7 +371,7 @@ applicable licenses.
 
 ## Contribuer
 
-Votre aide sur REA est la bienvenue ! [Ouvrez une issue](https://github.com/morluto/rea/issues) pour signaler un bug ou proposer une fonctionnalité, ou [envoyez une pull request](https://github.com/morluto/rea/pulls) pour améliorer le code ou la documentation.
+Votre aide sur REA est la bienvenue ! [Ouvrez une issue](https://github.com/probal776225-art/rea/issues) pour signaler un bug ou proposer une fonctionnalité, ou [envoyez une pull request](https://github.com/probal776225-art/rea/pulls) pour améliorer le code ou la documentation.
 
 Consultez [CONTRIBUTING.md](../../CONTRIBUTING.md) pour l'environnement de développement et les vérifications, la page [tests](../testing.md) pour les procédures de vérification, et la [carte de l'architecture](../architecture.mermaid) pour la structure du projet.
 

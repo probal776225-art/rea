@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> 此仓库是 REA 的分支（fork），由 [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) 在 [probal776225-art/rea](https://github.com/probal776225-art/rea) 维护；REA 由 [morluto](https://github.com/morluto) 创建。请参阅[分支说明](../fork/README.md)和[孟加拉语（বাংলা）快速入门](../fork/bn.md)。
+>
 > REA 官方来源： [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > 请通过这些官方来源提供的安装和发布链接获取 REA。相似的仓库名称或复制的 README 不能证明下载内容来自官方。
 
@@ -329,7 +331,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-如果正在使用智能体，请完成[设置更新](#更新-rea)并重启智能体。重试同一任务。如果问题仍然存在，请[提交 issue](https://github.com/morluto/rea/issues)，附上 REA 版本、目标类型、复现步骤和错误输出。
+如果正在使用智能体，请完成[设置更新](#更新-rea)并重启智能体。重试同一任务。如果问题仍然存在，请[提交 issue](https://github.com/probal776225-art/rea/issues)，附上 REA 版本、目标类型、复现步骤和错误输出。
 
 </details>
 
@@ -371,7 +373,7 @@ REA 用于合法的研究、教育、互操作性、软件保存，以及分析�
 
 ## 参与贡献
 
-欢迎帮助改进 REA！你可以[提交 issue](https://github.com/morluto/rea/issues) 报告错误或建议功能，也可以[提交 pull request](https://github.com/morluto/rea/pulls) 改进代码或文档。
+欢迎帮助改进 REA！你可以[提交 issue](https://github.com/probal776225-art/rea/issues) 报告错误或建议功能，也可以[提交 pull request](https://github.com/probal776225-art/rea/pulls) 改进代码或文档。
 
 开发设置和检查见 [CONTRIBUTING.md](../../CONTRIBUTING.md)，验证流程见[测试指南](../testing.md)，项目结构见[架构图](../architecture.mermaid)。
 

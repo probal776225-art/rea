@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Цей репозиторій — форк REA, який підтримує [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) у [probal776225-art/rea](https://github.com/probal776225-art/rea); автор REA — [morluto](https://github.com/morluto). Див. [нотатки про форк](../fork/README.md) і [короткий посібник бенгальською (বাংলা)](../fork/bn.md).
+>
 > Офіційні джерела REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Користуйтеся посиланнями на встановлення та випуски з цих офіційних джерел. Схожа назва репозиторію або скопійований README не підтверджують, що завантажуваний файл є офіційним.
 
@@ -329,7 +331,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-Якщо використовуєте агента, завершіть [оновлення налаштувань](#оновіть-rea) і перезапустіть його. Повторіть те саме завдання. Якщо проблема залишається, [відкрийте issue](https://github.com/morluto/rea/issues) із версією REA, типом цілі, кроками відтворення та виводом помилки.
+Якщо використовуєте агента, завершіть [оновлення налаштувань](#оновіть-rea) і перезапустіть його. Повторіть те саме завдання. Якщо проблема залишається, [відкрийте issue](https://github.com/probal776225-art/rea/issues) із версією REA, типом цілі, кроками відтворення та виводом помилки.
 
 </details>
 
@@ -372,7 +374,7 @@ applicable licenses.
 
 ## Участь у проєкті
 
-Будемо раді вашій допомозі з REA! [Відкрийте issue](https://github.com/morluto/rea/issues), щоб повідомити про помилку чи запропонувати функцію, або [надішліть pull request](https://github.com/morluto/rea/pulls) з поліпшеннями коду чи документації.
+Будемо раді вашій допомозі з REA! [Відкрийте issue](https://github.com/probal776225-art/rea/issues), щоб повідомити про помилку чи запропонувати функцію, або [надішліть pull request](https://github.com/probal776225-art/rea/pulls) з поліпшеннями коду чи документації.
 
 Налаштування середовища розробки й перевірки описано в [CONTRIBUTING.md](../../CONTRIBUTING.md), шляхи верифікації — у [посібнику тестування](../testing.md), а структуру проєкту — на [схемі архітектури](../architecture.mermaid).
 

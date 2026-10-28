@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Questo repository è un fork di REA mantenuto da [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) su [probal776225-art/rea](https://github.com/probal776225-art/rea); REA è stato creato da [morluto](https://github.com/morluto). Consulta le [note del fork](../fork/README.md) e la [guida rapida in bengalese (বাংলা)](../fork/bn.md).
+>
 > Fonti ufficiali di REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Segui i link di installazione e delle versioni pubblicate da queste fonti ufficiali. Un nome di repository simile o un README copiato non dimostra che un download sia ufficiale.
 
@@ -326,7 +328,7 @@ Per la configurazione dell'agente tramite `npx`:
 npx rea-agents@latest setup
 ```
 
-Se stai usando un agente, completa l'[aggiornamento della configurazione](#aggiorna-rea) e riavvialo. Riprova lo stesso task. Se il problema persiste, [apri un issue](https://github.com/morluto/rea/issues) con la tua versione di REA, il tipo di bersaglio, i passaggi per riprodurlo e l'output di errore.
+Se stai usando un agente, completa l'[aggiornamento della configurazione](#aggiorna-rea) e riavvialo. Riprova lo stesso task. Se il problema persiste, [apri un issue](https://github.com/probal776225-art/rea/issues) con la tua versione di REA, il tipo di bersaglio, i passaggi per riprodurlo e l'output di errore.
 
 </details>
 
@@ -369,7 +371,7 @@ applicable licenses.
 
 ## Contributing
 
-Apprezzeremmo il tuo aiuto con REA! [Apri un issue](https://github.com/morluto/rea/issues) per segnalare un bug o suggerire una funzionalità, oppure [invia una pull request](https://github.com/morluto/rea/pulls) per migliorare il codice o la documentazione.
+Apprezzeremmo il tuo aiuto con REA! [Apri un issue](https://github.com/probal776225-art/rea/issues) per segnalare un bug o suggerire una funzionalità, oppure [invia una pull request](https://github.com/probal776225-art/rea/pulls) per migliorare il codice o la documentazione.
 
 Vedi [CONTRIBUTING.md](../../CONTRIBUTING.md) per la configurazione di sviluppo e i controlli, [testing](../testing.md) per le lane di verifica e la [mappa dell'architettura](../architecture.mermaid) per la struttura del progetto.
 
