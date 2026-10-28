@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> このリポジトリは REA のフォークで、[Pradyumna Chakraborty Probal](https://github.com/probal776225-art) が [probal776225-art/rea](https://github.com/probal776225-art/rea) で管理しています。REA は [morluto](https://github.com/morluto) によって作成されました。[フォークに関する注意事項](../fork/README.md)と[ベンガル語 (বাংলা) のクイックスタート](../fork/bn.md)を参照してください。
+>
 > REA の公式配布元： [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > インストールとリリースのリンクは、これらの公式配布元からたどってください。似たリポジトリ名やコピーされた README だけでは、公式の配布物とは確認できません。
 
@@ -331,7 +333,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-エージェントを使っている場合は、[設定の更新](#rea-を更新する)を完了し、再起動してください。同じタスクをもう一度試し、問題が続く場合は [issue を作成](https://github.com/morluto/rea/issues)して、REA のバージョン、対象の種類、再現手順、エラー出力を記載してください。
+エージェントを使っている場合は、[設定の更新](#rea-を更新する)を完了し、再起動してください。同じタスクをもう一度試し、問題が続く場合は [issue を作成](https://github.com/probal776225-art/rea/issues)して、REA のバージョン、対象の種類、再現手順、エラー出力を記載してください。
 
 </details>
 
@@ -372,7 +374,7 @@ REA は、法令に従った研究、教育、相互運用性の確保、ソフ�
 
 ## 貢献する
 
-REA への貢献を歓迎します！[issue を作成](https://github.com/morluto/rea/issues)してバグや機能の提案を報告したり、[pull request を送信](https://github.com/morluto/rea/pulls)してコードやドキュメントを改善したりできます。
+REA への貢献を歓迎します！[issue を作成](https://github.com/probal776225-art/rea/issues)してバグや機能の提案を報告したり、[pull request を送信](https://github.com/probal776225-art/rea/pulls)してコードやドキュメントを改善したりできます。
 
 開発環境とチェックは [CONTRIBUTING.md](../../CONTRIBUTING.md)、検証レーンは[テストガイド](../testing.md)、プロジェクト構造は[アーキテクチャ図](../architecture.mermaid)を参照してください。
 

@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Kho mã này là một bản fork của REA do [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) duy trì tại [probal776225-art/rea](https://github.com/probal776225-art/rea); REA được tạo bởi [morluto](https://github.com/morluto). Xem [ghi chú về bản fork](../fork/README.md) và [hướng dẫn nhanh bằng tiếng Bengal (বাংলা)](../fork/bn.md).
+>
 > Các nguồn chính thức của REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Hãy dùng các liên kết cài đặt và bản phát hành từ những nguồn chính thức này. Tên kho mã tương tự hoặc README được sao chép không chứng minh rằng tệp tải xuống là bản chính thức.
 
@@ -329,7 +331,7 @@ Với thiết lập tác nhân qua `npx`:
 npx rea-agents@latest setup
 ```
 
-Nếu dùng tác nhân, hãy hoàn tất [làm mới thiết lập](#cập-nhật-rea) và khởi động lại nó. Thử lại cùng tác vụ. Nếu vấn đề vẫn còn, [mở issue](https://github.com/morluto/rea/issues) với phiên bản REA, loại mục tiêu, các bước tái hiện và đầu ra lỗi.
+Nếu dùng tác nhân, hãy hoàn tất [làm mới thiết lập](#cập-nhật-rea) và khởi động lại nó. Thử lại cùng tác vụ. Nếu vấn đề vẫn còn, [mở issue](https://github.com/probal776225-art/rea/issues) với phiên bản REA, loại mục tiêu, các bước tái hiện và đầu ra lỗi.
 
 </details>
 
@@ -372,7 +374,7 @@ applicable licenses.
 
 ## Đóng góp
 
-Chúng tôi hoan nghênh bạn giúp phát triển REA! [Mở issue](https://github.com/morluto/rea/issues) để báo lỗi hoặc đề xuất tính năng, hoặc [gửi pull request](https://github.com/morluto/rea/pulls) để cải thiện mã hay tài liệu.
+Chúng tôi hoan nghênh bạn giúp phát triển REA! [Mở issue](https://github.com/probal776225-art/rea/issues) để báo lỗi hoặc đề xuất tính năng, hoặc [gửi pull request](https://github.com/probal776225-art/rea/pulls) để cải thiện mã hay tài liệu.
 
 Xem [CONTRIBUTING.md](../../CONTRIBUTING.md) về thiết lập môi trường phát triển và các bước kiểm tra, [hướng dẫn kiểm thử](../testing.md) về các luồng xác minh và [sơ đồ kiến trúc](../architecture.mermaid) về cấu trúc dự án.
 

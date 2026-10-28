@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> 이 저장소는 REA의 포크이며 [probal776225-art/rea](https://github.com/probal776225-art/rea)에서 관리됩니다(관리자: [Pradyumna Chakraborty Probal](https://github.com/probal776225-art)). REA는 [morluto](https://github.com/morluto)가 만들었습니다. [포크 안내](../fork/README.md)와 [벵골어(বাংলা) 빠른 시작](../fork/bn.md)을 참고하세요.
+>
 > REA 공식 배포처: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > 이 공식 배포처에서 제공하는 설치 및 릴리스 링크를 이용하세요. 비슷한 저장소 이름이나 복사된 README만으로는 공식 배포 파일인지 확인할 수 없습니다.
 
@@ -331,7 +333,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-에이전트를 사용 중이라면 [설정 갱신](#rea-업데이트)을 완료하고 다시 시작하세요. 같은 작업을 다시 시도하세요. 문제가 계속되면 REA 버전, 대상 유형, 재현 단계, 오류 출력을 포함해 [issue를 등록](https://github.com/morluto/rea/issues)하세요.
+에이전트를 사용 중이라면 [설정 갱신](#rea-업데이트)을 완료하고 다시 시작하세요. 같은 작업을 다시 시도하세요. 문제가 계속되면 REA 버전, 대상 유형, 재현 단계, 오류 출력을 포함해 [issue를 등록](https://github.com/probal776225-art/rea/issues)하세요.
 
 </details>
 
@@ -372,7 +374,7 @@ REA는 법을 준수하는 연구, 교육, 상호운용성 확보, 소프트웨�
 
 ## 기여
 
-REA에 도움을 보태 주세요! [issue를 등록](https://github.com/morluto/rea/issues)해 버그나 기능을 제안하거나, [pull request를 보내](https://github.com/morluto/rea/pulls) 코드와 문서를 개선할 수 있습니다.
+REA에 도움을 보태 주세요! [issue를 등록](https://github.com/probal776225-art/rea/issues)해 버그나 기능을 제안하거나, [pull request를 보내](https://github.com/probal776225-art/rea/pulls) 코드와 문서를 개선할 수 있습니다.
 
 개발 환경과 검사 항목은 [CONTRIBUTING.md](../../CONTRIBUTING.md), 검증 절차는 [테스트 가이드](../testing.md), 프로젝트 구조는 [아키텍처 지도](../architecture.mermaid)를 참고하세요.
 

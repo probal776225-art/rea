@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Bu depo, [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) tarafından [probal776225-art/rea](https://github.com/probal776225-art/rea) adresinde sürdürülen bir REA fork'udur; REA, [morluto](https://github.com/morluto) tarafından oluşturuldu. [Fork notlarına](../fork/README.md) ve [Bengalce (বাংলা) hızlı başlangıç kılavuzuna](../fork/bn.md) bakın.
+>
 > REA’nın resmî kaynakları: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Kurulum ve sürüm bağlantılarını bu resmî kaynaklardan takip edin. Benzer bir depo adı veya kopyalanmış bir README, indirilen dosyanın resmî olduğunu kanıtlamaz.
 
@@ -325,7 +327,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-Ajan kullanıyorsanız [kurulum yenilemesini](#reayı-güncelleyin) tamamlayın ve ajanı yeniden başlatın. Aynı görevi tekrar deneyin. Sorun sürerse REA sürümünüzü, hedef türünü, yeniden üretme adımlarını ve hata çıktısını içeren bir [issue açın](https://github.com/morluto/rea/issues).
+Ajan kullanıyorsanız [kurulum yenilemesini](#reayı-güncelleyin) tamamlayın ve ajanı yeniden başlatın. Aynı görevi tekrar deneyin. Sorun sürerse REA sürümünüzü, hedef türünü, yeniden üretme adımlarını ve hata çıktısını içeren bir [issue açın](https://github.com/probal776225-art/rea/issues).
 
 </details>
 
@@ -368,7 +370,7 @@ korur.
 
 ## Katkıda bulunma
 
-REA'ya katkınızı bekliyoruz! Hata bildirmek veya özellik önermek için bir [issue açın](https://github.com/morluto/rea/issues); kodu veya belgeleri geliştirmek için bir [pull request gönderin](https://github.com/morluto/rea/pulls).
+REA'ya katkınızı bekliyoruz! Hata bildirmek veya özellik önermek için bir [issue açın](https://github.com/probal776225-art/rea/issues); kodu veya belgeleri geliştirmek için bir [pull request gönderin](https://github.com/probal776225-art/rea/pulls).
 
 Geliştirme ortamı ve kontroller için [CONTRIBUTING.md](../../CONTRIBUTING.md), doğrulama süreçleri için [test rehberi](../testing.md) ve proje yapısı için [mimari harita](../architecture.mermaid) belgelerine bakın.
 

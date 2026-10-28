@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Este repositório é um fork do REA mantido por [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) em [probal776225-art/rea](https://github.com/probal776225-art/rea); o REA foi criado por [morluto](https://github.com/morluto). Veja as [notas do fork](../fork/README.md) e o [guia rápido em bengali (বাংলা)](../fork/bn.md).
+>
 > Fontes oficiais do REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Use os links de instalação e de versões dessas fontes oficiais. Um nome de repositório parecido ou um README copiado não comprova que um download seja oficial.
 
@@ -329,7 +331,7 @@ Para configurar o agente por `npx`:
 npx rea-agents@latest setup
 ```
 
-Se você usa um agente, conclua a [atualização da configuração](#atualize-o-rea) e reinicie-o. Tente executar a mesma tarefa novamente. Se o problema persistir, [abra uma issue](https://github.com/morluto/rea/issues) com sua versão do REA, o tipo de alvo, os passos para reproduzir e a saída do erro.
+Se você usa um agente, conclua a [atualização da configuração](#atualize-o-rea) e reinicie-o. Tente executar a mesma tarefa novamente. Se o problema persistir, [abra uma issue](https://github.com/probal776225-art/rea/issues) com sua versão do REA, o tipo de alvo, os passos para reproduzir e a saída do erro.
 
 </details>
 
@@ -372,7 +374,7 @@ applicable licenses.
 
 ## Contribuir
 
-Sua ajuda com o REA é bem-vinda! [Abra uma issue](https://github.com/morluto/rea/issues) para relatar um bug ou sugerir uma funcionalidade, ou [envie um pull request](https://github.com/morluto/rea/pulls) para melhorar o código ou a documentação.
+Sua ajuda com o REA é bem-vinda! [Abra uma issue](https://github.com/probal776225-art/rea/issues) para relatar um bug ou sugerir uma funcionalidade, ou [envie um pull request](https://github.com/probal776225-art/rea/pulls) para melhorar o código ou a documentação.
 
 Consulte [CONTRIBUTING.md](../../CONTRIBUTING.md) para configurar o ambiente de desenvolvimento e as verificações, o [guia de testes](../testing.md) para os fluxos de verificação e o [mapa da arquitetura](../architecture.mermaid) para a estrutura do projeto.
 

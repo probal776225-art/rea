@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> این مخزن یک فورک از REA است که توسط [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) در [probal776225-art/rea](https://github.com/probal776225-art/rea) نگهداری می‌شود؛ REA توسط [morluto](https://github.com/morluto) ساخته شده است. [یادداشت‌های فورک](../fork/README.md) و [راهنمای شروع سریع به زبان بنگالی (বাংলা)](../fork/bn.md) را ببینید.
+>
 > منابع رسمی REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > از پیوندهای نصب و انتشار در این منابع رسمی استفاده کنید. نام مشابه مخزن یا README کپی‌شده ثابت نمی‌کند که فایل دانلودی رسمی است.
 
@@ -314,7 +316,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-اگر از ایجنت استفاده می‌کنید، [به‌روزرسانی راه‌اندازی](#به‌روزرسانی-rea) را تکمیل و ایجنت را مجدداً اجرا کنید. همان کار را دوباره امتحان کنید. اگر مشکل ادامه داشت، یک [issue ثبت کنید](https://github.com/morluto/rea/issues) و نسخهٔ REA، نوع هدف، مراحل بازتولید و خروجی خطا را ذکر کنید.
+اگر از ایجنت استفاده می‌کنید، [به‌روزرسانی راه‌اندازی](#به‌روزرسانی-rea) را تکمیل و ایجنت را مجدداً اجرا کنید. همان کار را دوباره امتحان کنید. اگر مشکل ادامه داشت، یک [issue ثبت کنید](https://github.com/probal776225-art/rea/issues) و نسخهٔ REA، نوع هدف، مراحل بازتولید و خروجی خطا را ذکر کنید.
 
 </details>
 
@@ -351,7 +353,7 @@ applicable licenses.
 
 ## مشارکت
 
-از کمک شما به REA استقبال می‌کنیم! برای گزارش خطا یا پیشنهاد قابلیت، یک [issue باز کنید](https://github.com/morluto/rea/issues) یا برای بهبود کد و مستندات [pull request بفرستید](https://github.com/morluto/rea/pulls).
+از کمک شما به REA استقبال می‌کنیم! برای گزارش خطا یا پیشنهاد قابلیت، یک [issue باز کنید](https://github.com/probal776225-art/rea/issues) یا برای بهبود کد و مستندات [pull request بفرستید](https://github.com/probal776225-art/rea/pulls).
 
 برای راه‌اندازی محیط توسعه و بررسی‌ها، [CONTRIBUTING.md](../../CONTRIBUTING.md)، برای مراحل اعتبارسنجی [آزمایش‌ها](../testing.md) و برای ساختار پروژه [نقشهٔ معماری](../architecture.mermaid) را ببینید.
 

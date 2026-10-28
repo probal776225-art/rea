@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> Dieses Repository ist ein Fork von REA, gepflegt von [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) unter [probal776225-art/rea](https://github.com/probal776225-art/rea); REA wurde von [morluto](https://github.com/morluto) entwickelt. Siehe die [Fork-Hinweise](../fork/README.md) und den [Schnellstart auf Bengalisch (বাংলা)](../fork/bn.md).
+>
 > Offizielle Quellen für REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Folge den Installations- und Release-Links aus diesen offiziellen Quellen. Ein ähnlicher Repository-Name oder eine kopierte README belegt nicht, dass ein Download offiziell ist.
 
@@ -329,7 +331,7 @@ Für die Agenteneinrichtung über `npx`:
 npx rea-agents@latest setup
 ```
 
-Wenn du einen Agenten verwendest, schließe die [Aktualisierung der Einrichtung](#rea-aktualisieren) ab und starte ihn neu. Wiederhole dieselbe Aufgabe. Besteht das Problem weiterhin, [öffne ein Issue](https://github.com/morluto/rea/issues) mit deiner REA-Version, dem Zieltyp, den Reproduktionsschritten und der Fehlerausgabe.
+Wenn du einen Agenten verwendest, schließe die [Aktualisierung der Einrichtung](#rea-aktualisieren) ab und starte ihn neu. Wiederhole dieselbe Aufgabe. Besteht das Problem weiterhin, [öffne ein Issue](https://github.com/probal776225-art/rea/issues) mit deiner REA-Version, dem Zieltyp, den Reproduktionsschritten und der Fehlerausgabe.
 
 </details>
 
@@ -372,7 +374,7 @@ applicable licenses.
 
 ## Mitwirken
 
-Wir freuen uns über deine Hilfe bei REA! [Öffne ein Issue](https://github.com/morluto/rea/issues), um einen Fehler zu melden oder eine Funktion vorzuschlagen, oder [sende einen Pull Request](https://github.com/morluto/rea/pulls), um Code oder Dokumentation zu verbessern.
+Wir freuen uns über deine Hilfe bei REA! [Öffne ein Issue](https://github.com/probal776225-art/rea/issues), um einen Fehler zu melden oder eine Funktion vorzuschlagen, oder [sende einen Pull Request](https://github.com/probal776225-art/rea/pulls), um Code oder Dokumentation zu verbessern.
 
 Die Entwicklungsumgebung und Prüfungen beschreibt [CONTRIBUTING.md](../../CONTRIBUTING.md), die Verifikationspfade der [Testleitfaden](../testing.md) und die Projektstruktur die [Architekturübersicht](../architecture.mermaid).
 

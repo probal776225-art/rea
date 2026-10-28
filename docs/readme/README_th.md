@@ -27,6 +27,8 @@
 </div>
 
 > [!IMPORTANT]
+> รีโพสิทอรีนี้เป็น fork ของ REA ที่ดูแลโดย [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) ที่ [probal776225-art/rea](https://github.com/probal776225-art/rea) และ REA สร้างโดย [morluto](https://github.com/morluto) ดู[บันทึกเกี่ยวกับ fork](../fork/README.md) และ[คู่มือเริ่มต้นฉบับภาษาเบงกาลี (বাংলা)](../fork/bn.md)
+>
 > แหล่งทางการของ REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > โปรดใช้ลิงก์ติดตั้งและรุ่นเผยแพร่จากแหล่งทางการเหล่านี้ ชื่อที่เก็บโค้ดที่คล้ายกันหรือ README ที่คัดลอกมาไม่ได้ยืนยันว่าไฟล์ดาวน์โหลดเป็นของทางการ
 
@@ -329,7 +331,7 @@ rea update
 npx rea-agents@latest setup
 ```
 
-หากใช้เอเจนต์ ให้ทำ[การปรับปรุงการตั้งค่า](#อัปเดต-rea) ให้เสร็จแล้วเริ่มเอเจนต์ใหม่ ลองงานเดิมอีกครั้ง หากยังพบปัญหา ให้[เปิด issue](https://github.com/morluto/rea/issues) พร้อมระบุรุ่น REA ประเภทเป้าหมาย ขั้นตอนทำให้เกิดปัญหา และข้อความข้อผิดพลาด
+หากใช้เอเจนต์ ให้ทำ[การปรับปรุงการตั้งค่า](#อัปเดต-rea) ให้เสร็จแล้วเริ่มเอเจนต์ใหม่ ลองงานเดิมอีกครั้ง หากยังพบปัญหา ให้[เปิด issue](https://github.com/probal776225-art/rea/issues) พร้อมระบุรุ่น REA ประเภทเป้าหมาย ขั้นตอนทำให้เกิดปัญหา และข้อความข้อผิดพลาด
 
 </details>
 
@@ -372,7 +374,7 @@ applicable licenses.
 
 ## การมีส่วนร่วม
 
-เรายินดีรับความช่วยเหลือในการพัฒนา REA! [เปิด issue](https://github.com/morluto/rea/issues) เพื่อรายงานบั๊กหรือเสนอฟีเจอร์ หรือ[ส่ง pull request](https://github.com/morluto/rea/pulls) เพื่อปรับปรุงโค้ดหรือเอกสาร
+เรายินดีรับความช่วยเหลือในการพัฒนา REA! [เปิด issue](https://github.com/probal776225-art/rea/issues) เพื่อรายงานบั๊กหรือเสนอฟีเจอร์ หรือ[ส่ง pull request](https://github.com/probal776225-art/rea/pulls) เพื่อปรับปรุงโค้ดหรือเอกสาร
 
 ดู [CONTRIBUTING.md](../../CONTRIBUTING.md) สำหรับการตั้งค่าสภาพแวดล้อมพัฒนาและการตรวจสอบ ดู[การทดสอบ](../testing.md) สำหรับแนวทางการตรวจยืนยัน และ[แผนผังสถาปัตยกรรม](../architecture.mermaid) สำหรับโครงสร้างโปรเจกต์
 

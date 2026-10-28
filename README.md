@@ -27,6 +27,12 @@
 </div>
 
 > [!IMPORTANT]
+> This repository is a fork of REA maintained by
+> [Pradyumna Chakraborty Probal](https://github.com/probal776225-art) at
+> [probal776225-art/rea](https://github.com/probal776225-art/rea); REA was created by
+> [morluto](https://github.com/morluto). See the [fork notes](docs/fork/README.md) and the
+> [Bengali (বাংলা) quick start](docs/fork/bn.md).
+>
 > Get REA from [morluto/rea](https://github.com/morluto/rea),
 > [rea.tools](https://rea.tools/), or the [rea-agents npm package](https://www.npmjs.com/package/rea-agents).
 > Follow the installation and release links from these official sources. A similar
@@ -404,7 +410,7 @@ npx rea-agents@latest setup
 ```
 
 If you're using an agent, complete the [setup refresh](#update-rea) and restart
-it. Retry the same task. If the problem persists, [open an issue](https://github.com/morluto/rea/issues)
+it. Retry the same task. If the problem persists, [open an issue](https://github.com/probal776225-art/rea/issues)
 with your REA version, target type, steps to reproduce and error output.
 
 </details>
@@ -449,8 +455,8 @@ and analysis of software you own or are authorized to examine.
 
 ## Contributing
 
-We'd love your help with REA! [Open an issue](https://github.com/morluto/rea/issues) to
-report a bug or suggest a feature, or [send a pull request](https://github.com/morluto/rea/pulls)
+We'd love your help with this fork! [Open an issue](https://github.com/probal776225-art/rea/issues) to
+report a bug or suggest a feature, or [send a pull request](https://github.com/probal776225-art/rea/pulls)
 to improve the code or docs.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and checks,
