@@ -152,11 +152,19 @@ export const filterClientsNeedingConfigure = async (
   return detectedClients.filter((_, index) => needs[index]);
 };
 
+// The keg-only formula leaves the default `node` in place. A global install
+// run from this PATH registers its own runtime, so clients need no PATH change.
+const HOMEBREW_NODE_PATH = 'PATH="$(brew --prefix node@24)/bin:$PATH"';
+const HOMEBREW_NODE_REMEDIATION = `With Homebrew, keep your current Node.js and run \`brew install node@24\`, then \`${HOMEBREW_NODE_PATH} npm install --global ${PRODUCT_IDENTITY.packageName}\` and \`${HOMEBREW_NODE_PATH} ${PRODUCT_IDENTITY.cliBinary} setup\`.`;
+
 /** Refuse a Node.js runtime REA does not support before any setup work. */
-export const hostRemediation = (host: SetupHost): string | undefined =>
-  supportsNodeVersion(host.nodeVersion)
-    ? undefined
-    : `Install ${SUPPORTED_NODE_VERSION_PROSE} and rerun setup.`;
+export const hostRemediation = (host: SetupHost): string | undefined => {
+  if (supportsNodeVersion(host.nodeVersion)) return undefined;
+  const remediation = `Install ${SUPPORTED_NODE_VERSION_PROSE} and rerun setup.`;
+  return host.platform === "darwin"
+    ? `${remediation} ${HOMEBREW_NODE_REMEDIATION}`
+    : remediation;
+};
 
 /** Production setup effects for Hopper, agent configuration, and the canonical skill directory. */
 export const systemSetupHost = (
